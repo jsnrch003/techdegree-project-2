@@ -1,0 +1,248 @@
+/* 
+
+========== Base Styles ==========
+
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #98C1D9;
+    color: #3D5A80;
+    text-align: center;
+    margin: auto;
+    padding: 0 1em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #EE6C4D;
+    padding: 0.5em;
+}
+
+li {
+    list-style: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* 
+
+========== Navigation ==========
+
+ */
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item {
+    min-width: 150px;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 1px 1px 2px #00000059;
+    font-size: .75em;
+}
+
+/* 
+
+========== Introduction ==========
+
+ */
+
+.intro-wrapper {
+    margin: 3em 0;
+}
+
+.intro-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-item {
+    margin-top: 2em;
+}
+
+.intro-item p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.intro p, .contact-info {
+    padding: 0px 2em;
+    text-align: center;
+}
+
+.intro-img {
+    width: 250px;
+    margin: auto;
+    box-shadow: 2px 2px 3px #00000059;
+}
+
+/* 
+
+========== Portfolio ==========
+
+ */
+
+.portfolio-wrapper {
+    margin: 3em 0;
+    padding: 2em 0;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #E0FBFC;
+    color: #3D5A80;
+    margin-bottom: 1.25em;
+    box-shadow: 2px 1px 2px #00000059;
+    flex-basis: 300px;
+}
+
+.card-title, .contact-700, .name.small, .uppercase {
+    font-weight: 700;
+}
+
+.card-body {
+    padding: 0 1em;
+}
+
+.card li {
+    margin: 1em 0;
+}
+
+.card img {
+    max-width: 275px;
+    box-shadow: 2px 2px 3px #808080;
+}
+
+/*
+
+ ========== Contact Info ========== 
+
+ */
+
+.contact-item {
+    padding: .5em 0;
+}
+
+.contact-info {
+    margin-bottom: 1.5em;
+    max-width: 550px;
+    align-self: center;
+}
+
+/* 
+
+========== Footer ==========
+
+ */
+
+.footer-info {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    align-items: center;
+    padding: 2em 1em;
+    border-top: 1px solid #E0FBFC;
+}
+
+.footer-nav-item {
+    display: none;
+    font-size: 0.75em;
+    box-shadow: none;
+    min-width: auto;
+    padding-left: 1.5em;
+}
+
+.to-top {
+    font-size: .8em;
+    text-shadow: none;
+}
+
+/* 
+
+========== Media Queries ==========
+
+ */
+
+@media screen and (min-width: 632px) {
+    .nav-list {
+        display: flex;
+    }
+    .intro-list {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    .intro-item {
+        padding: 0 2em;
+    }
+    .intro-item p {
+        text-align: left;
+    }
+    .intro-img {
+        width: 275px;
+    }
+    .footer-nav-item {
+        display: inline-flex;
+    }
+    .to-top {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 932px) {
+    .name-large {
+        margin-left: 1em;
+    }
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: center;
+    }
+    .intro-img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1232px) {
+    body {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
