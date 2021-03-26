@@ -12,7 +12,8 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #98C1D9;
+    background: #0b2e3c;
+    background: linear-gradient(313deg, #293241 0%, #98C1D9 100%);
     color: #3D5A80;
     text-align: center;
     margin: auto;
@@ -160,6 +161,10 @@ li {
 ========== Footer ==========
 
 */
+
+.footer-wrapper {
+    color: #E0FBFC;
+}
 
 .footer-info {
     margin-top: 2em;
