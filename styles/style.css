@@ -1,4 +1,6 @@
-/* ==================== Base Styles ==================== */
+/* ====================
+Base Styles
+==================== */
 
 * {
     box-sizing: border-box;
@@ -38,7 +40,9 @@ li {
     text-transform: uppercase;
 }
 
-/* ==================== Navigation ==================== */
+/* ====================
+Navigation
+==================== */
 
 .nav-wrapper {
     display: flex;
@@ -54,7 +58,9 @@ li {
     font-size: .75em;
 }
 
-/* ==================== Introduction ==================== */
+/* ====================
+Introduction
+==================== */
 
 .intro-wrapper {
     margin: 3em 0;
@@ -86,7 +92,9 @@ li {
     box-shadow: 2px 2px 3px #00000059;
 }
 
-/* ==================== Portfolio ==================== */
+/* ====================
+Portfolio
+==================== */
 
 .portfolio-wrapper {
     margin: 3em 0;
@@ -125,7 +133,9 @@ li {
     box-shadow: 2px 2px 3px #808080;
 }
 
-/* ==================== Contact Info ==================== */
+/* ====================
+Contact Info
+==================== */
 
 .contact-item {
     padding: .5em 0;
@@ -137,7 +147,9 @@ li {
     align-self: center;
 }
 
-/* ==================== Footer ==================== */
+/* ====================
+Footer
+==================== */
 
 .footer-wrapper {
     color: #e0fbfcb3;
@@ -171,7 +183,9 @@ li {
     text-shadow: none;
 }
 
-/* ==================== Media Queries ==================== */
+/* ====================
+Media Queries
+==================== */
 
 @media screen and (min-width: 632px) {
     .nav-list {
