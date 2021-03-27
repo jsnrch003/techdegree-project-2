@@ -13,12 +13,13 @@
 body {
     font-family: 'Raleway', sans-serif;
     background: #0b2e3c;
-    background: linear-gradient(313deg, #293241 0%, #98C1D9 100%);
+    background: linear-gradient(313deg, #293241 0%, #98C1D9 75%);
     color: #3D5A80;
     text-align: center;
     margin: auto;
     padding: 0 1em;
     line-height: 1.5;
+    max-width: 1155px;
 }
 
 h1 {
@@ -116,7 +117,7 @@ li {
 }
 
 .card {
-    background-color: #E0FBFC;
+    background-color: #e0fbfcb3;
     color: #3D5A80;
     margin-bottom: 1.25em;
     box-shadow: 2px 1px 2px #00000059;
@@ -163,7 +164,7 @@ li {
 */
 
 .footer-wrapper {
-    color: #E0FBFC;
+    color: #e0fbfcb3;
 }
 
 .footer-info {
@@ -178,7 +179,7 @@ li {
     margin-top: 3em;
     align-items: center;
     padding: 2em 1em;
-    border-top: 1px solid #E0FBFC;
+    border-top: 1px solid #e0fbfc30;
 }
 
 .footer-nav-item {
@@ -241,13 +242,5 @@ li {
     }
     .intro-img {
         width: 300px;
-    }
-}
-
-@media screen and (min-width: 1232px) {
-    body {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
