@@ -228,7 +228,7 @@ li {
 
 @media screen and (min-width: 932px) {
     .name-large {
-        margin-left: 1em;
+        margin-left: 2em;
     }
     .nav-wrapper {
         display: flex;
@@ -239,6 +239,7 @@ li {
     .nav-list {
         display: flex;
         justify-content: center;
+        margin-right: 2em;
     }
     .intro-img {
         width: 300px;
